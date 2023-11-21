@@ -444,4 +444,31 @@ Das Ergebnis der Modulo-Operation ist der Rest der Division der beiden Zahlen. W
 
 # Reflexion
 
-Ich fand, dass ich heute nicht wirklich etwas neues gelernt habe. Ich habe heute eher dinge repetiert.
+**Unterrichtsinhalte und Ziele:**
+
+In diesem Unterricht war mein Ziel den Stoff, den ich letzte Woche verpasst habe nachzuholen. Ich habe dieses Ziel meiner Meinung nach ziemlich gut erreicht, da ich meine Arbeit heute Morgen fertig geschaft habe.
+
+**Unterrichtsresultate:**
+
+Die Unterrichtsresultate sind hier auf meinem GitHub und auf meinem OneNote ersichtbar, wobei man nur meine Inhalte die ich auf GitHub dokumentiert habe einsehbar sind, da ich nur Notizen in mein OneNote einschreibe.
+
+**Probleme/Knacknüsse:**
+
+Ich fand die Aufgaben 9-13 ziemlich hart, bei diesen Aufgaben hatte ich länger überlegen müssen. Ich habe diese jedoch mit ein wenig recherche selbst lösen können, jedoch will ich diese trotzdem nochmals im nächsten Unterricht anschauen.
+
+**Neue Applikationen, Werkzeuge, Kommandos, etc.:**
+
+--Keine Neue Applikationen, Werkzeuge, Kommandos oder weiteres genutzt--
+
+**Offene Fragen:**
+Ich habe folgende Fragen:
+
+- [X] Für was brauch man `LSB` und `MSB`. Wie sollte ich dies interpretieren.
+
+- [X] Wie rechnet man Negative Ganzzahlen in binär um.
+
+- [X] Floats
+
+- [X] Octal zahlen wieso?
+
+- [ ] Aufgabe 9-13 anschauen
