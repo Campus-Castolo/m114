@@ -442,6 +442,67 @@ e. \( 10 \% 9 = 1 \)
 
 Das Ergebnis der Modulo-Operation ist der Rest der Division der beiden Zahlen. Wenn das Ergebnis 0 ist, bedeutet dies, dass die erste Zahl ohne Rest durch die zweite Zahl teilbar ist. Wenn das Ergebnis nicht 0 ist, bleibt der Rest der Division. In diesem Fall bedeutet beispielsweise \(10 \% 2 = 0\), dass 10 durch 2 ohne Rest teilbar ist, während \(11 \% 2 = 1\) bedeutet, dass bei der Division von 11 durch 2 ein Rest von 1 verbleibt.
 
+# Aufgabe zu Notepad++ und HxD
+Sie erhalten eine ZIP-Datei switzerland.zip unter folgendem Link: 
+
+https://juergarnold.ch/Codesysteme/switzerland.zip 
+
+Laden sie die ZIP-Datei auf ihren Notebook und extrahieren sie die binäre Datei switzerland.bin. Untersuchen sie diese mit Notepad++ und HxD. In der Datei verstecken sich vier vorzeichenlose 16-Bit-Ganzzahlen. Jede davon hat einen Bezug zur Schweiz. Wandeln sie die vier Zahlen je in ihr Dezimaläquivalent um und geben sie einen Tipp ab, was deren CH-Bedeutung sein kann. 
+
+Die Datein enthält 4 * 16Bit-Zahlen
+Eine 16-Bit Zahl entspricht 4Hex-Ziffern
+
+Somit heisst es
+
+050B = 1'291
+A145 = 41'285
+121A = 4'634
+1F9A = 8'090
+
+# Aufgaben zu ASCII und Unicode
+
+Sie erhalten eine ZIP-Datei Textsamples.zip unter folgendem Link:
+
+https://juergarnold.ch/Codesysteme/Textsamples.zip 
+
+Laden sie die ZIP-Datei auf ihren Notebook und extrahieren sie die drei Dateien Textsample1, Textsample2 und Textsample3. Eine der drei Dateien ist in ASCII codiert, die andere in UTF-8 und die dritte in UTF-16. Beantworten sie nun die folgenden Fragen: 
+
+1.	Welche der Dateien ist nun ASCII-codiert, welche UTF-8 und welche UTF-16 BE-BOM?
+
+Textsample1=ASCII, Textsample2=UTF8, Textsample3=UTF16BE
+
+2. Alle drei Dateien enthalten denselben Text aus wie vielen Zeichen besteht dieser?
+
+68 Zeichen
+
+3. Was sind die jeweiligen Dateigrössen? (Beachten sie, dass unter Grösse auf Datenträger jeweils 0 Bytes angegeben wird. Dies darum weil beim Windows Dateisystem NTFS kleine Dateien direkt in die MFT (Master File Table) geschrieben werden) Wie erklären sie sich die Unterschiede?
+
+```
+Textsample1=68B 68 x 1 B ASCII
+
+Textsample2=71B
+31-30-30-E2-82-AC-2E
+31-30-30 = 100
+E2 = 1110'0010 somit folgen 2 weitere  Bytes
+Damit ergibt sich für das $-Zeichen 3 Byte: E2-A2-AC
+66B + 2B + 3B=71
+E2-A2-AC=1110'0010-1010'0010-1010'1100
+
+Textsample3=138B
+UTF16-BE BOM (Big-Endian) -> Code beginnt mit FE FF =2B
+Unicodezeichen werden auf zwei Bytes abgebildet
+z.B. Eurozeichen=20AC
+Ergibt 2 x 68B + 2B = 138B
+```
+4.	Bei den weiteren Fragen interessieren uns nur noch die ASCII- und die UTF-8-Datei: Bekanntlich ist UTF-8 in den ersten 128 Zeichen deckungsgleich mit ASCII. Untersuchen sie nun die beiden HEX-Dumps und geben sie an, welche Zeichen unterschiedlich codiert sind. Ein kleiner Tipp: Es sind deren zwei.
+
+Der Buchstabe ä aus dem Wort Parität und das Eurozeichen.
+
+5.	Was bedeuten die beiden Ausdrücke, denen wir z.B. bei UTF-16 begegnen: Big-Endian (BE), Little-Endian (LE)?
+
+BigEndian: hh:mm:ss
+LittleEndian: dd:mm:yyyy
+
 # Reflexion
 
 **Unterrichtsinhalte und Ziele:**
