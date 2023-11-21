@@ -441,3 +441,7 @@ d. \( 10 \% 5 = 0 \)
 e. \( 10 \% 9 = 1 \)
 
 Das Ergebnis der Modulo-Operation ist der Rest der Division der beiden Zahlen. Wenn das Ergebnis 0 ist, bedeutet dies, dass die erste Zahl ohne Rest durch die zweite Zahl teilbar ist. Wenn das Ergebnis nicht 0 ist, bleibt der Rest der Division. In diesem Fall bedeutet beispielsweise \(10 \% 2 = 0\), dass 10 durch 2 ohne Rest teilbar ist, während \(11 \% 2 = 1\) bedeutet, dass bei der Division von 11 durch 2 ein Rest von 1 verbleibt.
+
+# Reflexion
+
+Ich fand, dass ich heute nicht wirklich etwas neues gelernt habe. Ich habe heute eher dinge repetiert.
