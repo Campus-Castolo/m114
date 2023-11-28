@@ -533,3 +533,5 @@ Ich habe folgende Fragen:
 - [X] Octal zahlen wieso?
 
 - [ ] Aufgabe 9-13 anschauen
+
+[Tag2](../A_DATEN_CODIEREN_2/README.md)
