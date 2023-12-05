@@ -193,7 +193,7 @@ Dieses Dokument
 
 **Probleme/Knacknüsse:**
 
-Id
+Die aufgabe BWT machte mir schwierigkeiten und auch das LZW
 
 **Neue Applikationen, Werkzeuge, Kommandos, etc.:**
 
@@ -201,3 +201,11 @@ Id
 
 **Offene Fragen:**
 Ich habe folgende Fragen:
+
+- [X] Huffmann Verfahren
+
+- [X] LZW Verfahren
+
+- [X] ZIP-Komprimierung
+
+- [ ] BWT
