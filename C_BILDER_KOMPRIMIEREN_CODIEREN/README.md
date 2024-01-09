@@ -164,3 +164,230 @@ Die Formate RAW, TIF und JPG sind verschiedene Dateiformate, die in der Fotograf
 3. **JPG (Joint Photographic Experts Group):** JPG ist ein komprimiertes Dateiformat, das Verluste in der Bildqualität aufweisen kann, da es Informationen für eine kleinere Dateigröße komprimiert. Es ist ideal für den Alltagsgebrauch, Online-Veröffentlichungen und Situationen, in denen Dateigröße wichtig ist. JPG eignet sich weniger für intensive Bildbearbeitung, da jede erneute Speicherung zu weiterem Qualitätsverlust führen kann.
 
 In Zusammenfassung: RAW bietet höchste Qualität und Bearbeitungsfreiheit, TIF bietet Verlustfreiheit und wird oft für professionelle Zwecke verwendet, während JPG für den alltäglichen Gebrauch und die effiziente Speicherung von Bildern geeignet ist, jedoch mit einem gewissen Qualitätsverlust.
+
+
+# Auftrag 6
+Berechnen sie den Speicherbedarf für ein unkomprimiertes Einzelbild im HD720p50-Format bei einer True-Color-Farbauflösung.
+
+**Lösungsweg:**
+Um den Speicherbedarf für ein unkomprimiertes Einzelbild im HD720p50-Format (High Definition 720p mit 50 Bildern pro Sekunde) bei True-Color-Farbauflösung zu berechnen, benötigen wir Informationen über die Bildgröße in Pixeln und die Farbtiefe.
+
+**HD720p50-Auflösung:**
+- HD720p hat eine Auflösung von 1280x720 Pixeln.
+
+**True-Color-Farbauflösung:**
+- True-Color verwendet in der Regel 24 Bit pro Pixel (8 Bit pro Farbkanal - Rot, Grün, Blau), was 2^24 Farben ermöglicht.
+
+Die Formel zur Berechnung des Speicherbedarfs lautet:
+
+Speicherbedarf (in Byte) = Breite X Höhe X Farbtiefe (in Byte pro Pixel)
+
+Für das HD720p50-Format mit True-Color-Farben ergibt sich:
+
+**Speicherbedarf = 1280 X 720 X 24/8 Byte**
+<br>
+**Speicherbedarf = 1280 X 720 X 3 Byte**
+<br>
+**Speicherbedarf = 2764800 Byte**
+<br>
+**Speicherbedarf ≈ 2.63 MB**
+
+Also beträgt der Speicherbedarf für ein unkomprimiertes Einzelbild im HD720p50-Format bei True-Color-Farbauflösung etwa 2.63 Megabyte.
+
+# Auftrag 7 
+Welchen Speicherbedarf hat das Video aus der vorangegangenen Aufgabe bei einer 
+Spieldauer von 3 Minuten?
+
+Um den Speicherbedarf für das Video aus der vorangegangenen Aufgabe bei einer Spieldauer von 3 Minuten zu berechnen, benötigen wir zusätzliche Informationen über die Bildrate des Videos (Bilder pro Sekunde, fps). In der vorherigen Aufgabe wurde die Bildrate nicht explizit angegeben. Lassen Sie uns jedoch annehmen, dass die Bildrate 50 Bilder pro Sekunde beträgt, da dies im HD720p50-Format üblich ist.
+
+Die Formel zur Berechnung des Speicherbedarfs für ein Video lautet:
+
+**Speicherbedarf (in Byte) = Bildrate (fps) X Spieldauer (in Sekunden) X Speicherbedarf pro Bild (in Byte)**
+
+Wir haben bereits den Speicherbedarf für ein Einzelbild berechnet<br> 
+**Speicherbedarf pro Bild = 2764800 Byte**. Lassen Sie uns den Speicherbedarf für das gesamte Video berechnen:
+
+**Speicherbedarf = 50fps X 3min X 60s/min X 2764800 Byte**
+<br>
+**Speicherbedarf ≈ 2488320000 Byte**
+<br>
+**Speicherbedarf ≈ 2.43 GB**
+
+Also beträgt der Speicherbedarf für das Video bei einer Spieldauer von 3 Minuten (unter Annahme einer Bildrate von 50 fps) etwa 2.32 Gigabyte.
+
+# Auftrag 8
+Ihre Digitalkamera bietet für die Speicherung ihrer Bilder folgende Formate an: RAW, TIF, JPG. Erklären Sie in ein paar kurzen Sätzen die Unterschiede und Einsatzgebiete dieser drei Formatvarianten.
+
+**Lösungsweg**
+- **RAW (Rohdatenformat):** Dieses Format speichert die unverarbeiteten Daten direkt von der Kamera. Es bietet maximale Qualität und Flexibilität bei der Nachbearbeitung, eignet sich jedoch eher für professionelle Fotografen und Fortgeschrittene, da spezielle Software zur Bearbeitung benötigt wird.
+
+- **TIF (Tagged Image File):** TIF ist ein verlustfreies Format, das hochwertige Bilder ermöglicht. Es wird häufig in der Druckindustrie und der professionellen Bildbearbeitung verwendet. Allerdings erzeugt es größere Dateien im Vergleich zu JPG und eignet sich daher besser für Projekte, bei denen die Dateigröße keine Hauptrolle spielt.
+
+- **JPG (JPEG):** JPG ist ein komprimiertes Format, das Verluste in der Bildqualität zulässt, um Dateigröße zu reduzieren. Es eignet sich gut für den alltäglichen Gebrauch, insbesondere für Webseiten und soziale Medien, wo kleinere Dateigrößen wichtig sind. JPG eignet sich weniger für intensive Bildbearbeitung, da bei wiederholten Speicherungen Verluste auftreten können.
+
+# Auftrag 9
+Sie möchten Ihr neulich erstelltes Gameplay-Video auf YouTube veröffentlichen. Was sind die technischen Vorgaben dazu? (Format, Bildrate, Farbauflösung, Video-, Audiocodec etc.). Gibt es allenfalls rechtliche Einschränkungen?
+
+**Lösungsweg**
+- **Format:** YouTube empfiehlt das MP4-Format.
+  
+- **Bildrate:** Typischerweise 24, 25 oder 30 fps, je nach künstlerischer Präferenz.
+  
+- **Farbauflösung:** 8 Bit pro Farbkanal (True-Color) für ausreichende Farbgenauigkeit.
+  
+- **Video-Codec:** Häufig verwendet werden H.264 oder H.265 für gute Qualität bei akzeptabler Dateigröße.
+  
+- **Audio-Codec:** AAC mit mindestens 48 kHz für hochwertigen Ton.
+  
+- **Auflösung:** Abhängig von der verfügbaren Ausrüstung, üblich sind 1080p (1920x1080) oder 4K (3840x2160).
+  
+- **Rechtliche Einschränkungen:** Urheberrechte beachten, keine Verletzung von Richtlinien wie Gewalt oder Hassrede.
+
+# Auftrag 10
+Sie haben ein 30-Zoll-Display (Diagonale) im Format 16:10 und 100ppi erworben. Was ist die Pixelauflösung horizontal und vertikal?
+
+**Lösungsweg**
+- Bei einem 16:10-Verhältnis beträgt das Breiten-zu-Höhen-Verhältnis 16:10.
+  
+- Pixelauflösung horizontal: \(16 \times 100 \, \text{ppi} = 1600\) Pixel.
+  
+- Pixelauflösung vertikal: \(10 \times 100 \, \text{ppi} = 1000\) Pixel.
+
+# Auftrag 11
+Sie drucken ein quadratisches Foto mit einer Kantenlänge von 2000 Pixel mit 600dpi. Wie groß in cm wird dieses?
+
+**Lösungsweg**
+- Pixelgröße: \(2000 \times 2000\) Pixel.
+  
+- \(2000 \, \text{Pixel} / 600 \, \text{dpi} = 3.33 \, \text{Zoll}\).
+  
+- In Zentimetern umrechnen (2.54 cm pro Zoll): \(3.33 \, \text{Zoll} \times 2.54 \, \text{cm/Zoll} \approx 8.46 \, \text{cm}\).
+
+# Auftrag 12
+Ein kleiner Abstecher in die Welt der Töne: Bild-1 zeigt den Aufbau eines Mikrofons, Bild-2 den eines Lautsprechers. Was sind eigentlich vom technischen Prinzip her die Unterschiede?
+
+**Lösungsweg**
+- **Mikrofon:** Wandelt Schall in elektrische Signale um, nutzt Mikrofonelemente wie Kondensator oder Dynamik.
+  
+- **Lautsprecher:** Wandelt elektrische Signale in Schall um, nutzt Lautsprecherelemente wie Membran und Magneten.
+  
+- Beide nutzen grundlegend verschiedene Wandlerprinzipien für Ein- und Ausgang.
+
+# Auftrag 13
+Was ist der Unterschied zwischen dem Interlaced Mode und dem Progressive Mode?
+
+**Lösungsweg**
+- **Interlaced Mode:** Zeilenweise Darstellung von Bildern. Gerade und ungerade Zeilen werden abwechselnd dargestellt, was zu Interlacing-Artefakten führen kann.
+  
+- **Progressive Mode:** Vollständige Bilder werden nacheinander dargestellt. Jedes Bild enthält alle Zeilen, was zu einer gleichmäßigeren Darstellung führt.
+
+# Auftrag 14
+Ein RGB-Farbbild benutzt nur die Farbe Weiß als Hintergrund und ein Hellblau mit folgenden Werten: R=33, G=121, B=239 (8 Bit pro Farbkanal). Das Bild soll in ein Graustufenbild umgewandelt
+
+ werden. Berechnen Sie den für das Hellblau entsprechende Grauwert. (8 Bit pro Farbkanal)
+
+**Lösungsweg**
+- Grauwertberechnung für Hellblau: \((33 + 121 + 239) / 3 = 127.67\).
+  
+- Der für das Hellblau entsprechende Grauwert beträgt etwa 128.
+
+# Auftrag 15
+Was versteht man unter Artefakten und welche kennen Sie?
+
+**Lösungsweg**
+- **Artefakte:** Unnatürliche oder unerwünschte Muster oder Verzerrungen in Bild- oder Tonaufnahmen.
+  
+- Beispiele: Blockartefakte bei zu starker JPEG-Kompression, Rauschen in Bildern oder Tonaufnahmen.
+
+# Auftrag 16
+Berechnen Sie die Bandbreite in GigaBit per Second oder kurz Gbps für die Übertragung eines unkomprimierten digitalen Videosignals HD1080i50 ohne Unterabtastung und 8 Bit Auflösung pro Farbkanal.
+
+**Lösungsweg**
+- \(1920 \times 1080 \times 50 \times 8 \, \text{Bit} = 7.3728 \, \text{Gbps}\).
+
+# Auftrag 17
+Nach wie vielen Minuten unkomprimierten HD1080i50 Video wäre eine DVD-5 (Single-Layer DVD mit 4.7GB) voll?
+
+**Lösungsweg**
+- 4.7 text{GB} / 7.3728 \, \text{Gbps} = 534.5 \, \text{s}\).
+
+# Auftrag 18
+Berechnen Sie, wie viel Speicher eingespart wird, wenn ein Bild mit Subsampling 4:1:1 komprimiert wird.
+
+**Lösungsweg**
+- 4 Teile Luminanz pro 1 Teil Chrominanz.
+  
+- (1 + 1 + 1/4 + 1/4 = 2.5\ Teile insgesamt.
+  
+- 100\% - (2.5/4 x 100%) = 37.5% Speichereinsparung.
+
+# Auftrag 19
+Was ist der Unterschied zwischen einem Codec und einem Mediencontainer?
+
+**Lösungsweg**
+- **Codec:** Codiert/decodiert Audio- oder Videodaten. Beispiel: H.264.
+  
+- **Mediencontainer:** Enthält Audio- und Videodaten, sowie Metadaten. Beispiel: MP4, MKV.
+
+# Auftrag 20
+Erstellen Sie einen vertonten Videoclip von ca. 5…10 sec. Dauer. Dazu filmen Sie z.B. mit Ihrem Smartphone kleine Sequenzen und schneiden diese später zusammen. Man kann auch Audio-Material wie Begleitmusik etc. vom Internet herunterladen und einbauen. (Bei Veröffentlichung Ihres Videos bitte die Copyrights beachten.)
+
+**Lösungsweg**
+- Verwenden Sie eine Videobearbeitungssoftware wie Adobe Premiere oder iMovie.
+  
+- Filmen Sie kurze Sequenzen mit Ihrem Smartphone.
+  
+- Schneiden Sie die Sequenzen zusammen und fügen Sie Audio-Material ein.
+  
+- Achten Sie darauf, lizenzierte Materialien legal zu verwenden und die Copyright-Bestimmungen zu beachten.
+  
+- Exportieren Sie das Video im gewünschten Format für die Veröffentlichung.
+
+•RGB 255/255/255 ergibt in YCbCr....
+• RGB 0/0/0 ergibt in YCbCr....
+• Y:1, Cb:0, Cr:0 entspricht der Farbe ....
+• Y:0, Cb:0, Cr:0 entspricht der Farbe ....
+• Y:0, Cb:0.5, Cr:0 entspricht der Farbe ....
+• Y:0, Cb:-0.5, Cr:0 entspricht der Farbe ....
+• Y:0, Cb:0, Cr:0.5 entspricht der Farbe ....
+• Y:0, Cb:0, Cr:-0.5 entspricht der Farbe ....
+• Y:0.3, Cb:0.5, Cr:-0.17 entspricht der Farbe ....
+
+• RGB 255/255/255 ergibt in YCbCr 1-0-0 <br>
+• RGB 0/0/0 ergibt in YCbCr 0-0-0 <br>
+• Y:1, Cb:0, Cr:0 entspricht der Farbe WEISS <br>
+• Y:0, Cb:0, Cr:0 entspricht der Farbe SCHWARZ <br>
+• Y:0, Cb:0.5, Cr:0 entspricht der Farbe ROT <br>
+• Y:0, Cb:-0.5, Cr:0 entspricht der Farbe GRÜN <br>
+• Y:0, Cb:0, Cr:0.5 entspricht der Farbe BLAU <br>
+• Y:0, Cb:0, Cr:-0.5 entspricht der Farbe GRÜN <br>
+• Y:0.3, Cb:0.5, Cr:-0.17 entspricht der Farbe ROT <br>
+
+# Reflexion
+
+**Unterrichtsinhalte und Ziele:**
+
+Ich habe mein Ziel erfüllt
+
+**Unterrichtsresultate:**
+
+Dieses Dokument
+
+**Probleme/Knacknüsse:**
+
+DCT-Verarbeitungsschritte, Verlustbehaftete Komprimierung hat mir einige Probleme gemacht aber mit eingigen Videos konnte ich diese bewältigen.
+
+**Neue Applikationen, Werkzeuge, Kommandos, etc.:**
+
+--Keine mir unbekannte Applikationen, Werkzeuge, Kommandos oder weiteres genutzt--
+
+**Offene Fragen:**
+Ich habe folgende Fragen:
+
+- [ ] DCT
+
+- [ ] Verlustbehagtete Komprimierung
+
+- [ ] Bandbreite und Artefakte
+
+
