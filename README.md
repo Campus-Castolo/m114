@@ -9,3 +9,6 @@ reflektion steht ganz unten
 
 ## [Tag 3](/B_DATEN_KOMPRIMIEREN_1_3/README.md)
 reflektion steht ganz unten
+
+## [Tag 4](/C_BILDER_KOMPRIMIEREN_CODIEREN/README.md)
+reflektion steht ganz unten
